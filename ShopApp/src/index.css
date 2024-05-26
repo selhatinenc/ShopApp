@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.logo {
+    position: fixed;
+    top: 0;
+    right: 0;
+    margin: 20px;
+    width: 100px; /* İstediğiniz genişlik */
+    height: auto; /* Yükseklik otomatik olarak ayarlanacak */
+    z-index: 9999; /* Diğer öğelerin üzerine çıkacak şekilde z-index değeri */
+  }
